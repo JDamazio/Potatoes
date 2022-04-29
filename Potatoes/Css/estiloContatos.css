@@ -1,0 +1,110 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header
+{
+
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+header
+{
+    background-color: rgb(105, 111, 165);    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+header img
+{
+    width: 150px;
+}
+
+li
+{
+    font-weight: bold;
+    border: 2px solid rgba(233,79,117,255);
+    display: inline-block;  
+    margin: 20px;
+    border-radius: 6px;
+}
+
+a:hover
+{
+    font-weight: bold;
+    color: rgba(233,79,117,255);
+    transition: .3s all;
+}
+
+li > a 
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+a{
+    color: rgba(244,135,92,255);
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    line-height: 20px;
+    max-width: 500px;
+    color: rgb(105, 111, 165);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+main 
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+img
+{
+    width:35px;
+    margin-bottom: 20px;
+}
+
+div
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+
+
+
+
+
